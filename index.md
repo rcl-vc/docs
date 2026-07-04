@@ -72,7 +72,7 @@ Once a holder shares their credential files with a verifier, the verifier can us
 
 ``RCL VC Workflow``
 
-<img src="images/howto.png" width="700" alt="Sample Credential">
+<img src="images/howto.png" width="600" alt="Sample Credential">
 
 
 
