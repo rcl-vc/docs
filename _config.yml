@@ -1,0 +1,16 @@
+﻿title: "RCL VC"
+remote_theme: pmarsceill/just-the-docs
+color_scheme: "dark"
+search_enabled: true
+ga_tracking: G-R8D9K4GZVQ
+ga_tracking_anonymize_ip: true
+aux_links:
+  "RCL VC Docs on GitHub":
+    - "https://rcl-vc.github.io/docs/"
+callouts:
+  information:
+    title: Information
+    color: blue
+  warning:
+    title: Warning
+    color: red
