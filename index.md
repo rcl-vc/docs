@@ -25,7 +25,7 @@ The authoritative entity (e.g., an organization, training institution or governm
 The recipient who receives the credential from an issuer and safely stores it  on a smartphone, computer or digital wallet.
 
 ## Verifier 
-The third-party entity (e.g. an organization, employer or a bank) that reviews the holder's credential and uses the issuer's cryptographic public keys to instantly check the credential's validity.
+The third-party entity (e.g. an organization, employer or a bank) that reviews the holder's credential and uses the issuer's cryptographic public key to instantly check the credential's validity.
 
 # RCL VC Platform
 
