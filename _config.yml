@@ -6,7 +6,7 @@ ga_tracking: G-R8D9K4GZVQ
 ga_tracking_anonymize_ip: true
 aux_links:
   "RCL VC Docs on GitHub":
-    - "https://rcl-vc.github.io/docs/"
+    - "https://github.com/rcl-vc/docs"
 callouts:
   information:
     title: Information
