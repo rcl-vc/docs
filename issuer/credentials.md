@@ -97,13 +97,13 @@ Notes:
 }
 ```
 
-# Create a Credential
+# Create a Credential as a PNG Image
 
 - In the RCL VC Issuer application, open the the ``Credentials`` page from the left menu
 
-- Click the ``Create Credential`` button
+- Click the ``Create Credential (PNG)`` button
 
-- In the ``Issue Credential`` page, add the Credential and Recipient information
+- In the ``Create a Credential`` page, add the Credential and Recipient information
 
 - Click the ``Save`` button when you are done
 
@@ -147,7 +147,7 @@ Contains metadata about the token, such as the type of token (JWT) and the crypt
 
  Contains the actual data being transmitted, the credential data in JSON format.
 
- ## Signature
+## Signature
 
   Created by combining the encoded header, payload and signed with the issuer's private key. This guarantees the integrity of the token and ensures that the information was not tampered with during transmission.
 
@@ -157,11 +157,11 @@ Contains metadata about the token, such as the type of token (JWT) and the crypt
 eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImp3ayI6eyJjcnYiOiJQLTI1NiIsImt0eSI6IkVDIiwieCI6IlZZVmwzZXVrWnk1Mm1FQ3diTEk2eV8yQmNPNVVDd1BsUVNBalptbUFIckUiLCJ5IjoiRk9qVl9xbTVDVEhxRFRMNXBKa0RXVnVOT3JTZmlDT3h3TGRsdjhSZFhJTSJ9fQ.eyJAY29udGV4dCI6WyJodHRwczovL3d3dy53My5vcmcvbnMvY3JlZGVudGlhbHMvdjIiXSwiaWQiOiJ1cm46aWQ6QzEzNCIsInR5cGUiOlsiVmVyaWZpYWJsZUNyZWRlbnRpYWwiXSwiaXNzdWVyIjp7ImlkIjoiZGlkOmtleTp6RG5hZW9SODNub0JybTZQaWN5YUF2U3lOZjh4QnNVTkwzMXZjQVF5UWhLVk0zeFFwIiwibmFtZSI6IlJheSBDb25zdWx0aW5nIExpbWl0ZWQifSwidmFsaWRGcm9tIjoiMDgtMDctMjAyNiIsIm5hbWUiOiJTYW1wbGUgQ3JlZGVudGlhbCIsImNyZWRlbnRpYWxTdWJqZWN0Ijp7ImlkIjoidXJuOmlkOklEMTIzNCIsIm5hbWUiOiJKb2huIERvZSIsImVtYWlsIjoiam9obmRvZUBtYWlsLmNvbSIsImRhdGVPZkJpcnRoIjoiMDUtMDItMjAwMyJ9LCJ2YWxpZFVudGlsIjoiMDgtMDctMjA3NiJ9.qyuhwhstDBipohcijO6dFCahA1xWyf_JoU6g2e5lBqx3xfsxlGBfXnAMWAbxJai1KBYgxaxIDL1mw6dcrZlO8Q
   ```
 
-  # Decoding a JWT
+# Decoding a JWT
 
-  A JWT can be decoded into it constituent parts. You can use the following website to decode a JWT, [jwt.io](https://www.jwt.io/)
+  A JWT can be decoded into its constituent parts. You can use the following website to decode a JWT, [jwt.io](https://www.jwt.io/)
 
-  ## Header in JSON format
+## Header in JSON format
 
   Here you can see the cryptographic algorithm used and the issuer's public key presented as a JSON Web Key (JWK)
 
@@ -179,7 +179,7 @@ eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImp3ayI6eyJjcnYiOiJQLTI1NiIsImt0eSI6IkVDIiwi
   }
   ```
 
-  ## Payload in JSON format
+## Payload in JSON format
 
   This is the actual credential data
 
