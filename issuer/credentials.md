@@ -8,15 +8,15 @@ nav_order: 2
 # Creating and Issuing Verifiable Credentials
 **V1.0**
 
-In the section, you will learn how to create and issue Verifiable Credentials (VCs) using the RCL VC Issuer application.
+In the section, learn to create and issue Verifiable Credentials (VCs) using the RCL VC Issuer application.
 
-# What is a Verifiable Credential
+# What are Verifiable Credentials (VCs)
 
-Verifiable Credentials (VCs) are tamper-proof, cryptographically secure digital credentials that can be instantly checked and validated. Standardized by the World Wide Web Consortium (W3C), they act as the digital equivalent of physical documents like driver's licenses, academic diplomas, or passports. Unlike static PDF documents, VCs contain built-in cryptographic signatures that allow anyone to verify their authenticity automatically without needing a central database.
+Verifiable Credentials (VCs) are tamper-proof, cryptographically secure digital credentials that can be instantly checked and validated. Standardized by the World Wide Web Consortium (W3C), they act as the digital equivalent of physical documents such as driver's licenses, academic diplomas, or passports. Unlike static PDF documents, VCs contain built-in cryptographic signatures that allow anyone to verify their authenticity automatically without needing a central database.
 
 # Credential Formats
 
-There are two credential formats as described below.
+Verifiable Credentials can be created and issued in two credential formats as described below:
 
 ## PNG Image
 
@@ -99,13 +99,13 @@ Notes:
 
 # Create a Credential as a PNG Image
 
-- In the RCL VC Issuer application, open the the ``Credentials`` page from the left menu
+- In the RCL VC Issuer application, open the ``Credentials`` page from the left menu
 
 - Click the ``Create Credential (PNG)`` button
 
 - In the ``Create a Credential`` page, add the Credential and Recipient information
 
-- Click the ``Save`` button when you are done
+- Click the ``Save`` button when completed
 
 - The newly created credential will be displayed in the credentials list
 
@@ -122,17 +122,17 @@ Your email application, such as Microsoft Outlook, must be open to send an email
 
 - Edit the default email if necessary and send the .PNG credential image as an attachment to the recipient
 
-# Download a Credential
+# Download and Send a Credential
 
 - On the ``Credential`` page, click the ``Download`` icon
 
 - Download and save the .PNG image file on your PC
 
-- You can manually send the file to the recipient via email or other means
+- If necessary, manually send the file to the recipient via email or other means
 
 # Credentials are transmitted as a JWT
 
-Credentials are transmitted in the QR code and .PNG image files are a [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519). The JWT is **encoded** in the QR code and **embedded** as **metadata** in the .PNG image file.
+Credentials transmitted in the QR code and .PNG image files are a [JSON Web Token (JWT)](https://datatracker.ietf.org/doc/html/rfc7519). The JWT is **encoded** in the QR code and **embedded** as **metadata** in the .PNG image file.
 
 A JWT is a compact, URL-safe string composed of three parts separated by dots (.): 
 
@@ -145,7 +145,7 @@ Contains metadata about the token, such as the type of token (JWT) and the crypt
 
 ## Payload
 
- Contains the actual data being transmitted, the credential data in JSON format.
+ Contains the actual data being transmitted, that is, the credential data in JSON format.
 
 ## Signature
 
@@ -159,7 +159,7 @@ eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImp3ayI6eyJjcnYiOiJQLTI1NiIsImt0eSI6IkVDIiwi
 
 # Decoding a JWT
 
-  A JWT can be decoded into its constituent parts. You can use the following website to decode a JWT, [jwt.io](https://www.jwt.io/)
+  A JWT can be decoded into its constituent parts. The following website can be used to decode a JWT, [jwt.io](https://www.jwt.io/)
 
 ## Header in JSON format
 
