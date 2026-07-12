@@ -22,7 +22,7 @@ The technology operates through an ecosystem containing three primary roles:
 The authoritative entity (e.g., an organization, training institution or government agency) that creates the credential and digitally signs it using their private cryptographic key.
 
 ## Holder 
-The recipient who receives the credential from an issuer and safely stores it  on a smartphone, computer or digital wallet.
+The recipient (e.g., learner, member of the public) who receives the credential from an issuer and safely stores it on a smartphone, computer or digital wallet.
 
 ## Verifier 
 The third-party entity (e.g. an organization, employer or a bank) that reviews the holder's credential and uses the issuer's cryptographic public key to instantly check the credential's validity.
