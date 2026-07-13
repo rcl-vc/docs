@@ -33,15 +33,15 @@ The RCL VC Platform comprises of the following applications:
 
 ## RCL VC Issuer
 
-The RCL VC Issuer application is a Windows Desktop application. It can be downloaded and installed on a Windows PC for free from the Windows Store. It allows any organization to create and issue Verifiable Credentials to holders.
+The RCL VC Issuer application is a Windows Desktop application. It can be downloaded and installed on a Windows PC for free from the Windows Store. It allows any organization to create and issue RCL Verifiable Credentials to holders.
 
 ## RCL VC Verifier
 
-The RCL VC Verifier application is a mobile Android/iOS application that can be downloaded and installed for free from the relevant mobile app store. The application is also available as a Windows Desktop application from the Windows Store. It allows any verifier to instantly verify a Verifiable Credential's validity.
+The RCL VC Verifier application is a mobile Android/iOS application that can be downloaded and installed for free from the relevant mobile app store. The application is also available as a Windows Desktop application from the Windows Store. It allows any verifier to instantly verify a RCL Verifiable Credential's validity.
 
 ## RCL VC Wallet
 
-The RCL VC Wallet application is a mobile Android/iOS application that can be downloaded and installed for free from the relevant mobile app store. The application is also available as a Windows Desktop application from the Windows Store. It allows holders to store their Verifiable Credentials on a mobile device or a Windows PC.
+The RCL VC Wallet application is a mobile Android/iOS application that can be downloaded and installed for free from the relevant mobile app store. The application is also available as a Windows Desktop application from the Windows Store. It allows holders to store their RCL Verifiable Credentials on a mobile device or a Windows PC.
 
 # How It Works
 

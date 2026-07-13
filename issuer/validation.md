@@ -20,7 +20,7 @@ A **Trust Registry** is an authoritative source that lists approved, recognized,
 
 # RCL VC Trust Registry
 
-When an issuer creates a credential in the RCL VC Issuer application, the status of the issuer is initially set to ``Unknown Issuer``. The issuer must verify their identity through Issuer Validation from RCL. A valid issuer will be added to the Trust Registry and the status will be changed to ``Valid Issuer``.
+When an issuer creates a credential in the RCL VC Issuer application, the status of the issuer is initially set to ``Unknown? Issuer``. The issuer must verify their identity through Issuer Validation from RCL. A valid issuer will be added to the Trust Registry and the status will be changed to ``Valid Issuer``.
 
 # How to Validate an Issuer
 
@@ -59,7 +59,7 @@ The RCL VC Verifier and RCL VC Wallet application both contain RCL's public key.
 - Complete the stripe payment
 
 {: .information }
-Payments and credit card processing is handled solely by [Stripe](https://stripe.com/). Do not enter credit card details on any RCL website pages nor does RCL store, view or process any credit card information during a payment. 
+Payments and credit card processing is handled solely by [Stripe](https://stripe.com/). You do not enter credit card details on any RCL website pages nor does RCL store, view or process any credit card information during a payment. 
 
 - In the ``Payment Complete`` page, click on the ``Continue`` button
 

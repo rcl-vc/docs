@@ -16,11 +16,11 @@ Verifiable Credentials (VCs) are tamper-proof, cryptographically secure digital 
 
 # Credential Formats
 
-Verifiable Credentials can be created and issued in two credential formats as described below:
+RCL Verifiable Credentials can be created and issued in two credential formats as described below:
 
 ## PNG Image
 
-A VC is issued as a .PNG image file displaying the details of the credential. The credential data is embedded as **metadata** in the image. In addition, a QR code is placed in the image. The QR code also contains the credential data.
+A credential is issued as a .PNG image file displaying the details of the credential. The credential data is embedded as **metadata** in the image. In addition, a QR code is placed in the image. The QR code also contains the credential data.
 
 ## PDF Document
 
@@ -68,7 +68,7 @@ Notes:
 - *2 An image as a Base64 string 
 - *3 The DID of the issuer
 
-``Example of a Verifiable Credential in JSON format``
+``Example of a RCL Verifiable Credential in JSON format``
 
 ```Json
 {
@@ -223,5 +223,3 @@ qyuhwhstDBipohcijO6dFCahA1xWyf_JoU6g2e5lBqx3xfsxlGBfXnAMWAbxJai1KBYgxaxIDL1mw6dc
 # Verifying the Signature of a Credential
 
 The public key that is contained in the credential is matched with the issuer's DID. Once there is a positive match, the public key is used to verify the signature. Once the signature is verified, the credential is deemed to be valid.
-
-
