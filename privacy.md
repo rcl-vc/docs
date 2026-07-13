@@ -18,11 +18,11 @@ This privacy policy applies to the following RCL Verifiable Credential applicati
 
 ## Information We Do Not Collect
 
-We do not collect, store, use, or have access to any of your personal information. You do not need to register or provide any personal details (such as your name, email, or address) to use the core features of this Application.
+RCL will not collect, store, use, or have access to any of your personal information. Do not register or provide any personal details (such as your name, email, or address) to use the core features of this Application.
 
 ## Third-Party Services
 
-We do not share your information with third parties. 
+RCL will not share your information with third parties. 
 
 ## Permissions
 
@@ -30,7 +30,7 @@ Depending on the device features you choose to enable, the Application may reque
 
 ## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
+RCL may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page. You are advised to review this Privacy Policy periodically for any changes.
 
 ## Contact Us
 
