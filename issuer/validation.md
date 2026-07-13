@@ -8,7 +8,7 @@ nav_order: 3
 # Validating an Issuer's Identity
 **V1.0**
 
-In the section, you will learn how to validate an issuer's identity.
+In the section, learn to validate an issuer's identity.
 
 # The Problem
 
@@ -16,13 +16,13 @@ An issuer can impersonate another entity or organization and falsely issue crede
 
 # Trust Registry
 
-A **Trust Registry** is an authoritative source that lists approved, recognized, and authorized VC issuers. It functions like a curated corporate phonebook or an official directory. While cryptographic verification proves that a credential has not been altered, a Trust Registry tells you whether the issuer is who they claim to be.
+A **Trust Registry** is an authoritative source that lists approved, recognized, and authorized VC issuers. It functions like a curated corporate phonebook or an official directory. While cryptographic verification proves that a credential has not been altered, a Trust Registry will verify that the issuer is who they claim to be.
 
 # RCL VC Trust Registry
 
-When an issuer creates a credential in the RCL VC Issuer application, the status of the issuer is initially set to ``Unknown? Issuer``. The issuer must verify their identity through Issuer Validation. A valid issuer will be added to the Trust Registry and the status will be changed to ``Valid Issuer``.
+When an issuer creates a credential in the RCL VC Issuer application, the status of the issuer is initially set to ``Unknown Issuer``. The issuer must verify their identity through Issuer Validation from RCL. A valid issuer will be added to the Trust Registry and the status will be changed to ``Valid Issuer``.
 
-# How to Validate and Issuer
+# How to Validate an Issuer
 
 To be added to the RCL VC Trust Registry, the issuer must make an application to the [RCL VC Trust Registry](https://trustregistry.vc.rclapp.com) website seeking validation.
 
@@ -34,7 +34,7 @@ The RCL VC Verifier and RCL VC Wallet application both contain RCL's public key.
 
 # Applying for Issuer Validation
 
-## Creating and Issuer 
+## Creating an Issuer 
 
 - Navigate to the [RCL VC Trust Registry](https://trustregistry.vc.rclapp.com) website
 
@@ -59,7 +59,7 @@ The RCL VC Verifier and RCL VC Wallet application both contain RCL's public key.
 - Complete the stripe payment
 
 {: .information }
-Payments and credit card processing is handled solely by [Stripe](https://stripe.com/). You do not enter your credit card details on any RCL website pages nor do we store, view or process any credit card information during a payment. 
+Payments and credit card processing is handled solely by [Stripe](https://stripe.com/). Do not enter credit card details on any RCL website pages nor does RCL store, view or process any credit card information during a payment. 
 
 - In the ``Payment Complete`` page, click on the ``Continue`` button
 
@@ -67,11 +67,11 @@ Payments and credit card processing is handled solely by [Stripe](https://stripe
 
 - The new validation will initially be in a ``pending`` state
 
-- It may take up to 5 days for RCL to validate the identity of a new issuer
+- It may take up to 5 working days for RCL to validate the identity of a new issuer
 
 - When the validation process is completed, click on the ``Details`` link in the dropdown link for a selected validation from the validations list
 
-- In the ``Validations Details`` page, you can access the ``Validation Signature`` and the ``Valid Until`` property values
+- In the ``Validations Details`` page, access the ``Validation Signature`` and the ``Valid Until`` property values
 
 # Adding the Validation Properties to the RCL VC Issuer application
 
@@ -81,8 +81,8 @@ Once the values of the ``Validation Signature`` and ``Valid Until`` properties a
 
 - Add a new validation
 
-- Enter the values of the ``Validation Signature`` and ``Valid Until`` properties you acquired from the RCL VC Trust Registry website. Click the ``Save`` button when you are done
+- Enter the values of the ``Validation Signature`` and ``Valid Until`` properties acquired from the RCL VC Trust Registry website. Click the ``Save`` button when completed
 
 - If the ``Validation Signature`` and ``Valid Until`` property values are valid you will see the ``Valid Issuer`` status for the issuer
 
-- After the validation expires, you can obtain a new validation and updated signature and date with the new values
+- After the validation expires, obtain a new validation and updated signature and date with the new values
